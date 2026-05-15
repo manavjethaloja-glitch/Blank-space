@@ -449,7 +449,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6 py-24">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-[#edeae4]">
-              <img src="/images/tshirt-2.png" alt="About" className="w-full h-full object-cover" />
+              <img src="Blank-space/images/IMG_0079.jpeg" alt="About" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-6">
               <p className="text-xs tracking-[0.2em] uppercase text-[#6b6864]">About</p>
