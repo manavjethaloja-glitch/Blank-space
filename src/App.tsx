@@ -7,7 +7,7 @@ const products = [
     name: "Solar Flare Tee",
     price: 34.99,
     originalPrice: 49.99,
-    image: "/images/tshirt-1.png",
+    image: "/Blank-space/images/tshirt-1.png",
     tag: "Bestseller",
     category: "Graphic",
     sizes: ["XS", "S", "M", "L", "XL"],
