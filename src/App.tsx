@@ -457,7 +457,7 @@ export default function App() {
                 Fashion that<br />remembers.
               </h2>
               <p className="text-[#6b6864] leading-relaxed">
-                Blank Page started with one idea — the best graphic tees are the ones buried in thrift store racks, forgotten by time. We bring those designs back, printed on heavyweight 100% organic cotton, in small batches that actually sell out.
+                Blank space started with one idea — the best graphic tees are the ones buried in thrift store racks, forgotten by time. We bring those designs back, printed on heavyweight 100% organic cotton, in small batches that actually sell out.
               </p>
               <p className="text-[#6b6864] leading-relaxed">
                 Every piece ships within 5 business days. Every return is free. And every design is retired once the run is done — no restocks, ever.
@@ -547,7 +547,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-4 gap-12">
             <div className="md:col-span-2 space-y-3">
-              <p className="font-playfair text-xl font-medium">Blank Page</p>
+              <p className="font-playfair text-xl font-medium">Blank space</p>
               <p className="text-sm text-[#6b6864] max-w-xs leading-relaxed">
                 Retro graphic tees for people who know that the best ideas are old ones.
               </p>
