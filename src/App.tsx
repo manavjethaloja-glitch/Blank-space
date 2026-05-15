@@ -247,7 +247,7 @@ export default function App() {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-[#F8F6F2]/90 backdrop-blur-md border-b border-[#e0ddd8]" : "bg-transparent"}`}>
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="font-playfair text-xl font-medium tracking-tight">Blank Page</a>
+          <a href="#" className="font-playfair text-xl font-medium tracking-tight">Blank space</a>
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8">
