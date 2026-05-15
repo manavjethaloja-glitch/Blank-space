@@ -8,7 +8,7 @@ const products = [
     name: "Solar Flare Tee",
     price: 34.99,
     originalPrice: 49.99,
-    image: "/images/tshirt-1.png",
+    image: "/Blank-space/images/tshirt-1.png",
     tag: "Bestseller",
     category: "Graphic",
     sizes: ["XS", "S", "M", "L", "XL"],
@@ -19,7 +19,7 @@ const products = [
     name: "Boom Static Tee",
     price: 38.99,
     originalPrice: 54.99,
-    image: "/images/tshirt-2.png",
+    image: "/Blank-space/images/tshirt-2.png",
     tag: "New",
     category: "Y2K",
     sizes: ["S", "M", "L", "XL", "XXL"],
@@ -30,7 +30,7 @@ const products = [
     name: "Shroom Trip Tee",
     price: 32.99,
     originalPrice: 44.99,
-    image: "/images/tshirt-3.png",
+    image: "/Blank-space/images/tshirt-3.png",
     tag: "Limited",
     category: "Psychedelic",
     sizes: ["XS", "S", "M", "L"],
@@ -41,7 +41,7 @@ const products = [
     name: "Butterfly Y2K Tee",
     price: 36.99,
     originalPrice: 52.99,
-    image: "/images/tshirt-4.png",
+    image: "/Blank-space/images/tshirt-4.png",
     tag: "Hot",
     category: "Y2K",
     sizes: ["XS", "S", "M", "L", "XL"],
@@ -52,7 +52,7 @@ const products = [
     name: "Acid Wash Tee",
     price: 33.99,
     originalPrice: 47.99,
-    image: "/images/tshirt-5.png",
+    image: "/Blank-space/images/tshirt-5.png",
     tag: "New",
     category: "Retro",
     sizes: ["S", "M", "L", "XL"],
@@ -63,13 +63,14 @@ const products = [
     name: "Tie-Dye Cloud Tee",
     price: 35.99,
     originalPrice: 49.99,
-    image: "/images/tshirt-6.png",
+    image: "/Blank-space/images/tshirt-6.png",
     tag: "Trending",
     category: "Tie-Dye",
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     description: "Spiral tie-dye, 100% organic cotton.",
   },
 ];
+
 
 const categories = ["All", "Graphic", "Y2K", "Psychedelic", "Retro", "Tie-Dye"];
 
@@ -263,7 +264,7 @@ export default function App() {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-[#F8F6F2]/90 backdrop-blur-md border-b border-[#e0ddd8]" : "bg-transparent"}`}>
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="font-playfair text-xl font-medium tracking-tight">Blank Page</a>
+          <a href="#" className="font-playfair text-xl font-medium tracking-tight">Blank space</a>
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8">
@@ -349,7 +350,7 @@ export default function App() {
             {/* Image */}
             <div className="relative">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-[#edeae4]">
-                <img src="/images/hero-tshirt.png" alt="Hero T-shirt" className="w-full h-full object-cover" />
+                <img src="/Blank-space/images/hero-tshirt.png" alt="Hero T-shirt" className="w-full h-full object-cover" />
               </div>
               {/* Floating label */}
               <div className="absolute -left-6 bottom-12 bg-[#F8F6F2] border border-[#e0ddd8] rounded-xl px-4 py-3 shadow-sm">
@@ -465,7 +466,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6 py-24">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-[#edeae4]">
-              <img src="/images/tshirt-2.png" alt="About" className="w-full h-full object-cover" />
+              <img src="/Blank-space/images/IMG_0079.jpeg" alt="About" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-6">
               <p className="text-xs tracking-[0.2em] uppercase text-[#6b6864]">About</p>
@@ -473,7 +474,7 @@ export default function App() {
                 Fashion that<br />remembers.
               </h2>
               <p className="text-[#6b6864] leading-relaxed">
-                Blank Page started with one idea — the best graphic tees are the ones buried in thrift store racks, forgotten by time. We bring those designs back, printed on heavyweight 100% organic cotton, in small batches that actually sell out.
+                Blank space started with one idea — the best graphic tees are the ones buried in thrift store racks, forgotten by time. We bring those designs back, printed on heavyweight 100% organic cotton, in small batches that actually sell out.
               </p>
               <p className="text-[#6b6864] leading-relaxed">
                 Every piece ships within 5 business days. Every return is free. And every design is retired once the run is done — no restocks, ever.
@@ -563,7 +564,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-4 gap-12">
             <div className="md:col-span-2 space-y-3">
-              <p className="font-playfair text-xl font-medium">Blank Page</p>
+              <p className="font-playfair text-xl font-medium">Blank space</p>
               <p className="text-sm text-[#6b6864] max-w-xs leading-relaxed">
                 Retro graphic tees for people who know that the best ideas are old ones.
               </p>
@@ -592,7 +593,7 @@ export default function App() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-16 pt-8 border-t border-[#e0ddd8]">
-            <p className="text-xs text-[#a8a5a0]">© 2025 Blank Page. All rights reserved.</p>
+            <p className="text-xs text-[#a8a5a0]">© 2026 space Page. All rights reserved.</p>
             <p className="text-xs text-[#a8a5a0]">Privacy · Terms · Cookies</p>
           </div>
         </div>
