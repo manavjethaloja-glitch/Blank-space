@@ -333,7 +333,7 @@ export default function App() {
             {/* Image */}
             <div className="relative">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-[#edeae4]">
-                <img src="/images/hero-tshirt.png" alt="Hero T-shirt" className="w-full h-full object-cover" />
+                <img src="/Blank-space/images/hero-tshirt.png" alt="Hero T-shirt" className="w-full h-full object-cover" />
               </div>
               {/* Floating label */}
               <div className="absolute -left-6 bottom-12 bg-[#F8F6F2] border border-[#e0ddd8] rounded-xl px-4 py-3 shadow-sm">
